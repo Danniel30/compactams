@@ -66,7 +66,7 @@ nav ul li a:hover {
     background: url('banner.jpg') no-repeat center;
     background-size: cover;
     padding: 50px 0;
-    color: white;
+    color: black;
 }
 
 form {
@@ -86,4 +86,50 @@ button {
     padding: 10px;
     border: none;
     cursor: pointer;
+}
+
+.valores-lista {
+    list-style-type: none; /* Remove os pontos padrão */
+    padding: 0;
+    text-align: center; /* Centraliza o conteúdo da lista */
+}
+
+.valores-lista li {
+    display: inline-block; /* Exibe os itens como blocos em linha */
+    margin: 0 10px; /* Espaçamento entre os itens */
+    font-size: 18px; /* Tamanho da fonte */
+}
+
+.valores-lista li::before {
+    content: "•"; /* Adiciona o ponto */
+    font-size: 40px; /* Tamanho do ponto */
+    margin-right: 5px; /* Espaço entre o ponto e o texto */
+    color: #FFB731; /* Cor do ponto */
+    vertical-align: middle; /* Alinha o ponto com o texto */
+}
+
+
+/* Sem utilização */
+#sobre {
+    background-color: #f8f9fa; /* Cor de fundo suave */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#sobre .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#sobre h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+#sobre p {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
 }
