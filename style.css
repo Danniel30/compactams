@@ -7,14 +7,38 @@ body {
 }
 
 header {
-    background: #333;
-    color: #fff;
-    padding: 15px 0;
+    background: #FFB731;
+    padding: 0;
+    position: relative; /* Mantém o menu fixo sem espaçamento extra */
+    margin-bottom: 0; /* Remove margem para colar ao corpo do site */
+}
+
+/* Layout flexível para o cabeçalho */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Logo alinhada à esquerda */
+#logo-marca {
+    width: 150px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+}
+
+/* Centralizando o menu */
+nav {
+    flex: 1;
+    text-align: center;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0; /* Remove espaçamento extra abaixo do menu */
 }
 
 nav ul li {
@@ -22,9 +46,20 @@ nav ul li {
     margin: 0 15px;
 }
 
+/* Estilo padrão do menu */
 nav ul li a {
-    color: #fff;
+    color: black; /* Define o texto padrão como preto */
     text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px; /* Espaçamento interno para melhorar a área de clique */
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Efeito hover: fundo branco e texto preto */
+nav ul li a:hover {
+    background: white;
+    color: black;
+    border-radius: 5px; /* Borda arredondada sutil */
 }
 
 .banner {
