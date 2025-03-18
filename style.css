@@ -9,8 +9,8 @@ body {
 header {
     background: #FFB731;
     padding: 0;
-    position: relative; /* Mantém o menu fixo sem espaçamento extra */
-    margin-bottom: 0; /* Remove margem para colar ao corpo do site */
+    position: relative;
+    margin-bottom: 0;
 }
 
 /* Layout flexível para o cabeçalho */
@@ -35,7 +35,7 @@ img {
 
 /* Logo alinhada à esquerda */
 #logo-marca {
-    width: 150px; /* Ajuste o tamanho conforme necessário */
+    width: 150px;
     height: auto;
 }
 
@@ -48,7 +48,7 @@ nav {
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 0; /* Remove espaçamento extra abaixo do menu */
+    margin: 0;
 }
 
 nav ul li {
@@ -58,10 +58,10 @@ nav ul li {
 
 /* Estilo padrão do menu */
 nav ul li a {
-    color: black; /* Define o texto padrão como preto */
+    color: black;
     text-decoration: none;
     font-weight: bold;
-    padding: 10px 15px; /* Espaçamento interno para melhorar a área de clique */
+    padding: 10px 15px;
     transition: background 0.3s ease, color 0.3s ease;
 }
 
@@ -69,14 +69,7 @@ nav ul li a {
 nav ul li a:hover {
     background: white;
     color: black;
-    border-radius: 5px; /* Borda arredondada sutil */
-}
-
-.banner {
-    background: url('/image/HX220L_background_05.jpg') no-repeat center;
-    background-size: cover;
-    padding: 50px 0;
-    color: white;
+    border-radius: 5px;
 }
 
 #contato {
@@ -123,46 +116,46 @@ button:hover {
 }
 
 .valores-lista {
-    list-style-type: none; /* Remove os pontos padrão */
+    list-style-type: none;
     padding: 0;
-    text-align: center; /* Centraliza o conteúdo da lista */
+    text-align: center;
 }
 
 .valores-lista li {
-    display: inline-block; /* Exibe os itens como blocos em linha */
-    margin: 0 10px; /* Espaçamento entre os itens */
-    font-size: 18px; /* Tamanho da fonte */
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 18px;
 }
 
 .valores-lista li::before {
-    content: "•"; /* Adiciona o ponto */
-    font-size: 40px; /* Tamanho do ponto */
-    margin-right: 5px; /* Espaço entre o ponto e o texto */
-    color: #FFB731; /* Cor do ponto */
-    vertical-align: middle; /* Alinha o ponto com o texto */
+    content: "•";
+    font-size: 40px;
+    margin-right: 5px;
+    color: #FFB731;
+    vertical-align: middle;
 }
 
 /* Estilo para o ícone do WhatsApp */
 #whatsapp-icon {
-    position: fixed; /* Fixa o ícone na tela */
-    bottom: 20px; /* Distância do fundo */
-    right: 20px; /* Distância da direita */
-    background-color: #25D366; /* Cor de fundo do WhatsApp */
-    color: white; /* Cor do ícone */
-    border-radius: 50%; /* Deixa o ícone redondo */
-    padding: 15px; /* Espaço interno */
-    font-size: 30px; /* Tamanho do ícone */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Sombra para o ícone */
-    text-decoration: none; /* Remove o sublinhado do link */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
 }
 
 #whatsapp-icon:hover {
-    background-color: #128C7E; /* Cor quando passar o mouse sobre o ícone */
-    transition: background-color 0.3s ease; /* Transição suave */
+    background-color: #128C7E;
+    transition: background-color 0.3s ease;
 }
 
 #sobre {
-    background-color: #f8f9fa; /* Cor de fundo suave */
+    background-color: #f8f9fa;
     padding: 50px 20px;
     text-align: center;
 }
@@ -186,7 +179,7 @@ button:hover {
 }
 
 footer {
-    background: #222; /* Cor de fundo escura */
+    background: #222;
     color: white;
     text-align: center;
     padding: 20px;
@@ -200,7 +193,7 @@ footer {
 }
 
 .social img {
-    width: 30px; /* Tamanho do ícone */
+    width: 30px; 
     height: auto;
     transition: 0.3s;
 }
